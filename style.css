@@ -1,0 +1,13 @@
+.my-container {
+    max-width: 500px;
+    border: 1px solid black;
+}
+
+.my-button-width {
+    width: 50px;
+}
+
+
+.my-input-width {
+    width: 100px;
+}
