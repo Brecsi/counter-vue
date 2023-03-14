@@ -14,10 +14,10 @@ new Vue({
     },
     computed: {
       incrementButtonText: function() {
-        return this.direction > 0 ? 'Add' : 'Subtract';
+        return this.direction > 0 ? 'Hozzáad' : 'Elvesz';
       },
       directionButtonText: function() {
-        return this.direction > 0 ? 'Forward' : 'Backward';
+        return this.direction > 0 ? 'Előre' : 'Hátra';
       },
     },
   });
