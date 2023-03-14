@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue js counter</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="d-flex container-fluid" id="app">
+        <h1>Counter: {{ counter }}</h1>
+        <button v-on:click="increment">Add 1</button>
+        <button v-on:click="decrement">Subtract 1</button>
+        <br>
+        <label for="min-input">Minimum value:</label>
+        <input id="min-input" v-model="min" type="number">
+        <br>
+        <label for="max-input">Maximum value:</label>
+        <input id="max-input" v-model="max" type="number">
+      </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
